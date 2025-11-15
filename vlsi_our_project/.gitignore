@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+backend/.env.example
+frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Simulation files
+*.vcd
+*.vvp
+*.out
+
+# OS
+Thumbs.db
+.DS_Store
+=======
+# Angular specific
+/dist/
+/out-tsc/
+/tmp/
+/coverage/
+/e2e/test-output/
+/.angular/
+.angular/
+
+# Node modules and dependency files
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Environment files
+/.env
+
+# Angular CLI and build artefacts
+/.angular-cli.json
+
+
+
+
+# Node/Vite outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# Python virtual environments & caches
+backend/venv/
+venv/
+.env/
+*.pyc
+__pycache__/
+.backend_env/
+
+# Environment secrets
+backend/.env
+frontend/.env
+*.env.local
+
+# Logs & uploads
+*.log
+backend/uploads/
+*.vcd
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage/tests
+coverage/
+pytest_cache/
+/.ng/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> dbeb7303d1a195842f36421c0215c764d016576a
